@@ -8,9 +8,11 @@ const adms = (prefix, sender) => {
 ╭┤⋟ Usuário: @${sender.split("@")[0]}
 ┃╰══ 🔧
 ╰╦═════════════════ 🛠️
+╭┤ 〘📢〙➢ ${prefix}audios (1/0)
 ╭┤ 〘📜〙➢ ${prefix}ativatexto (1/0)
 ╭┤ 〘⏱️〙➢ ${prefix}tmpgp 5m/1h
 ┃│ 〘🖼️〙➢ ${prefix}Antiimg (1/0)
+┃│ 〘🖼️〙➢ ${prefix}antivideo (1/0)
 ┃│ 〘🔒〙➢ ${prefix}antispam (1/0)
 ┃│ 〘📄〙➢ ${prefix}Antidoc (1/0)
 ┃│ 〘🔗〙➢ ${prefix}Antilinkgp (1/0)
@@ -24,7 +26,6 @@ const adms = (prefix, sender) => {
 ┃│ 〘🤖〙➢ ${prefix}Simih (1/0)
 ┃│ 〘🖼️〙➢ ${prefix}Autosticker (1/0)
 ┃│ 〘🔁〙➢ ${prefix}Autorepo (1/0)
-┃│ 〘🎮〙➢ ${prefix}Leveling (1/0)
 ┃│ 〘🔞〙➢ ${prefix}Modonsfw (1/0)
 ┃│ 〘🗑️〙➢ ${prefix}Odelete (1/0)
 ┃│ 〘🔎〙➢ ${prefix}x9visuunica (1/0)
@@ -100,7 +101,6 @@ const menu18 = (prefix, NomeDoBot, NickDono, sender) => {
 ┃│ ╔━━━━━━━━━━━━━━━╗
 ┃│ 🫦 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨 𝙝𝙚𝙣𝙩𝙖𝙞 🫦
 ┃│ ╚━━━━━━━━━━━━━━━╝
-┃│〘🎱〙➢ ${prefix}xnxxdl ( link )
 ┃│〘🎱〙➢ ${prefix}overflow-1 ( 1 a 8 )
 ┃│〘🎱〙➢ ${prefix}fig+18
 ┃│〘🎱〙➢ ${prefix}hinata
@@ -128,7 +128,6 @@ const menu18 = (prefix, NomeDoBot, NickDono, sender) => {
 ┃│ ╚━━━━━━━━━━━━━━━╝
 ┃│〘🎱〙➢ ${prefix}hentai-gay
 ┃│〘🎱〙➢ ${prefix}lesbian
-┃│〘🎱〙➢ ${prefix}ass
 ┃│〘🎱〙➢ ${prefix}bdms
 ┃│〘🎱〙➢ ${prefix}blowjob
 ┃│〘🎱〙➢ ${prefix}cuckold
@@ -197,7 +196,9 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┃│〘🛠️〙➢ ${prefix}Bangp  
 ┃│〘🛠️〙➢ ${prefix}Unbangp  
 ┃│〘🖼️〙➢ ${prefix}Fotomenu (Marcar-img)  
-┃│〘📜〙➢ ${prefix}Cmdpremlist  
+┃│〘📜〙➢ ${prefix}Cmdpremlist 
+┃│〘📝〙➢ ${prefix}verificarkey
+┃│〘📝〙➢ ${prefix}alterarkey (nome)
 ┃│〘📝〙➢ ${prefix}Addcmdprem (cmd)  
 ┃│〘📝〙➢ ${prefix}Delcmdprem (cmd)  
 ┃│〘🌄〙➢ ${prefix}Fundobemvindo (marcar-img)  
@@ -205,8 +206,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┃│〘🎟️〙➢ ${prefix}Serpremium  
 ┃│〘📝〙➢ ${prefix}Listagp  
 ┃│〘🛡️〙➢ ${prefix}Antipalavrão (1/0)  
-┃│〘🔕〙➢ ${prefix}Antiligar (1/0)  
-┃│〘🔒〙➢ ${prefix}Modoaluguel (1/0)  
+┃│〘🔕〙➢ ${prefix}Antiligar (1/0)    
 ┃│〘💬〙➢ ${prefix}Fazertm (Texto)  
 ┃│〘💬〙➢ ${prefix}Rgtm  
 ┃│〘❌〙➢ ${prefix}Tirardatm  
@@ -233,16 +233,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┃│〘❌〙➢ ${prefix}Delpix (numero/valor)  
 ┃│〘💸〙➢ ${prefix}Zerarsc (numero)  
 ┃│〘🧾〙➢ ${prefix}Gerargf (code)  
-┃│〘🧾〙➢ ${prefix}Delgf (code)  
-┃│〘💰〙➢ ${prefix}Addrent (558298.../dias)  
-┃│〘❌〙➢ ${prefix}Delrent  
-┃│〘🎁〙➢ ${prefix}Cortesia24  
-┃│〘📃〙➢ ${prefix}Listrent  
-┃│〘📉〙➢ ${prefix}Lastrent  
-┃│〘📊〙➢ ${prefix}Codelistrent  
-┃│〘💳〙➢ ${prefix}Gerarcoderent (558298.../dias)  
-┃│〘❌〙➢ ${prefix}Delcoderent (código)  
-┃│〘💳〙➢ ${prefix}Gerarcodecort  
+┃│〘🧾〙➢ ${prefix}Delgf (code)            
 ╰╦══════════════════ ⚙️  
 ╭┤⚙️ *Administração de Usuários* ⚙️  
 ┃│〘🔒〙➢ ${prefix}Ausente (fale-oq-faz)  
@@ -253,17 +244,6 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┃│〘💬〙➢ ${prefix}Descriçãogp (digite-algo)  
 ┃│〘🚫〙➢ ${prefix}Block [@]  
 ┃│〘✅〙➢ ${prefix}Unblock [@]  
-╰╦══════════════════ ⚙️  
-╭┤🎮 *Níveis e Experiência* 🎮  
-┃│〘🎯〙➢ ${prefix}Addlevel (quantidade)  
-┃│〘🎯〙➢ ${prefix}Tirarlevel (quantidade)  
-┃│〘🧩〙➢ ${prefix}Addxp (quantidade)  
-┃│〘🧩〙➢ ${prefix}Tirarxp (quantidade)  
-┃│〘🚫〙➢ ${prefix}Blocklevellist  
-┃│〘🚫〙➢ ${prefix}Blocklevel (@marcar)  
-┃│〘✅〙➢ ${prefix}Unblocklevel (@marcar)  
-┃│〘❌〙➢ ${prefix}Rmlevel (@marcar)  
-┃╰══ ⚙️  
 ╰═══════════════════ 💎`;
 };
 
@@ -275,31 +255,63 @@ const menulogos = (prefix, sender) => {
   
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa.  
   
-  return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​╭═════════════════ 🌟
-╰══🌟 *𝐌𝐄𝐍𝐔 - 𝐋𝐎𝐆𝐎𝐒* 🌟  
-╭┤〘🎯〙➢ Usuário: @${sender.split("@")[0]}  
-┃╰══ 🌟  
-╰╦══════════════════ 🖋️ 
-╭┤🖋️ *𝐋𝐎𝐆𝐎𝐒 𝟏 𝐓𝐄𝐗𝐓𝐎* 🖋️
-┃│〘🎨〙➢ ${prefix}Anime1 - *Texto*  
-┃│〘🎨〙➢ ${prefix}Anime2 - *Texto*  
-┃│〘🎮〙➢ ${prefix}Ff1 - *Texto*  
-┃│〘🎮〙➢ ${prefix}Ff2 - *Texto*  
-┃│〘🕹️〙➢ ${prefix}Game - *Texto*  
-┃│〘🌅〙➢ ${prefix}Entardecer - *Texto*  
-┃│〘❄️〙➢ ${prefix}Ffrose - *Texto*  
-┃│〘🍃〙➢ ${prefix}Ffgren - *Texto*  
-┃│〘🐺〙➢ ${prefix}Wolf - *Texto*  
-┃│〘🍂〙➢ ${prefix}Chufuyu - *Texto*  
-┃│〘🐉〙➢ ${prefix}Dragonred - *Texto*  
-┃│〘✏️〙➢ ${prefix}attp - *Texto*  
-┃│〘✏️〙➢ ${prefix}attp2 - *Texto*  
-┃│〘✏️〙➢ ${prefix}attp3 - *Texto*  
-┃│〘✏️〙➢ ${prefix}attp4 - *Texto*  
-┃│〘✏️〙➢ ${prefix}attp5 - *Texto*  
-┃│〘✏️〙➢ ${prefix}attp6 - *Texto*  
-┃╰══ 🖋️  
-╰═════════════════ 🌟​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​`;
+  return `
+
+╭═════════════════ 🌟
+╰══🌟 𝐌𝐄𝐍𝐔 - 𝐋𝐎𝐆𝐎𝐒 🌟
+╭┤〘🎯〙➢ Usuário: @${sender.split("@")[0]}
+┃╰══ 🌟
+╰╦══════════════════ 🖋️
+╭┤🖋️ 𝐋𝐎𝐆𝐎𝐒 𝟏 𝐓𝐄𝐗𝐓𝐎 🖋️
+┃│〘🎨〙➢ ${prefix}Anime - Texto
+┃│〘🎨〙➢ ${prefix}Anime2 - Texto
+┃│〘🕹️〙➢ ${prefix}Game - Texto
+┃│〘❄️〙➢ ${prefix}Ffrose - Texto
+┃│〘🍃〙➢ ${prefix}Ffgren - Texto
+┃│〘🎨〙➢ ${prefix}Graffiti - Texto
+┃│〘🔥〙➢ ${prefix}Dragonfire - Texto
+┃│〘🤖〙➢ ${prefix}Mascotemetal - Texto
+┃│〘🔩〙➢ ${prefix}Metallic - Texto
+┃│〘💖〙➢ ${prefix}Goldpink - Texto
+┃│〘✨〙➢ ${prefix}Glossy - Texto
+┃│〘🎮〙➢ ${prefix}Pubgavatar - Texto
+┃│〘🌌〙➢ ${prefix}Galaxy - Texto
+┃│〘⚰️〙➢ ${prefix}Cemiterio - Texto
+┃│〘🗯️〙➢ ${prefix}Comics - Texto
+┃│〘🌠〙➢ ${prefix}Galaxy-light - Texto
+┃│〘🚀〙➢ ${prefix}Amongus - Texto
+┃│〘🔀〙➢ ${prefix}Glitch - Texto
+┃│〘🎆〙➢ ${prefix}Firework - Texto
+┃│〘🖥️〙➢ ${prefix}Techstyle - Texto
+┃│〘👑〙➢ ${prefix}Royal - Texto
+┃│〘☁️〙➢ ${prefix}Cloudsky - Texto
+┃│〘🔡〙➢ ${prefix}Ligatures - Texto
+┃│〘❄️〙➢ ${prefix}Frozen - Texto
+┃│〘🎨〙➢ ${prefix}Watercolor - Texto
+┃│〘🏖️〙➢ ${prefix}Summerbeach - Texto
+┃│〘🖌️〙➢ ${prefix}Graffitistyle - Texto
+┃│〘⚡〙➢ ${prefix}Mascoteneon - Texto
+┃│〘🌀〙➢ ${prefix}Doubleexposure - Texto
+┃│〘🔩〙➢ ${prefix}Metal - Texto
+┃│〘🌈〙➢ ${prefix}Colorful - Texto
+┃│〘🕳️〙➢ ${prefix}3dcrack - Texto
+┃│〘🎈〙➢ ${prefix}Balloon - Texto
+┃│〘🌈〙➢ ${prefix}Multicolor - Texto
+┃│〘🎃〙➢ ${prefix}Halloween - Texto
+┃│〘❄️〙➢ ${prefix}Snow - Texto
+┃│〘🇺🇸〙➢ ${prefix}America - Texto
+┃│〘🩸〙➢ ${prefix}Blood - Texto
+┃│〘🧽〙➢ ${prefix}Eraser - Texto
+┃│〘🕶️〙➢ ${prefix}Vintage3D - Texto
+┃│〘💀〙➢ ${prefix}Deadpool - Texto
+┃│〘✨〙➢ ${prefix}Glitter - Texto
+┃│〘🎀〙➢ ${prefix}Blackpink - Texto
+┃│〘🔥〙➢ ${prefix}Phlogo - Texto
+┃│〘🖍️〙➢ ${prefix}Graffitiwall - Texto
+┃│〘🦸‍♂️〙➢ ${prefix}Captain - Texto
+┃│〘🕰️〙➢ ${prefix}Retro - Texto
+┃╰══ 🖋️
+╰═════════════════ 🌟`;
 };
 
 exports.menulogos = menulogos;
@@ -354,11 +366,12 @@ return `╭═════════════════ ✨
 ┃│〘📑〙➢ ${prefix}Listaddd - *Número* - *Adiciona número à lista*  
 ┃│〘🆔〙➢ ${prefix}Gerarcpf - *Gera CPF fictício*  
 ┃│〘📃〙➢ ${prefix}Premiumlist - *Lista de usuários Premium*  
-┃│〘📱〙➢ ${prefix}Celular - *Nome* - *Gera um celular fictício*  
 ┃│〘💸〙➢ ${prefix}Dinextenso - *Valor* - *Converte valor em extenso*  
-┃│〘🔢〙➢ ${prefix}Sip - *Número* - *Gera SIP de telefone*  
+┃│〘🔢〙➢ ${prefix}Sip - *Número* - *Gera SIP de telefone* 
+┃│〘🔢〙➢ ${prefix}Sip2 - *Número* - *Gera SIP de telefone*   
 ┃│〘✅〙➢ ${prefix}Validarcnpj - *Número* - *Valida CNPJ*  
-┃│〘✅〙➢ ${prefix}Validarcpf - *Número* - *Valida CPF*  
+┃│〘✅〙➢ ${prefix}Validarcpf - *Número* - *Valida CPF* 
+┃│〘✅〙➢ ${prefix}plaq1 (nome) de 1 a 9
 ╰══ 🔥
 ╰═════════════════ ✨`;
 };
@@ -387,6 +400,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━╯  
 
 😂 *𝐁𝐑𝐈𝐍𝐂𝐀𝐃𝐄𝐈𝐑𝐀𝐒* 🎭  
+┣ 😼 ${prefix}apolparpeitos - *@Marcar usuário*  
 ┣ 🌈 ${prefix}Gay - *@Marcar usuário*  
 ┣ 🤡 ${prefix}Feio - *@Marcar usuário*  
 ┣ 🐂 ${prefix}Corno - *@Marcar usuário*  
@@ -490,68 +504,7 @@ const animes = (prefix, sender) => {
 return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​╭━━━❰ 🎌 𝐌𝐄𝐍𝐔 𝐃𝐄 𝐀𝐍𝐈𝐌𝐄𝐒 🎌 ❱━━━╮  
 ┃ 🎮 *Usuário:* @${sender.split("@")[0]}  
 ╰━━━━━━━━━━━━━━━━━━╯  
-
-🏮 *𝐀𝐍𝐈𝐌𝐄𝐒 - 𝐄𝐃𝐈𝐓𝐒* 🏮  
-┣ 🎬 ${prefix}Editanime -random  
-┣ 🎭 ${prefix}Editanime -bleach  
-┣ ⚔️ ${prefix}Editanime -chainsaw  
-┣ 🔥 ${prefix}Editanime -dragonball  
-┣ 🩸 ${prefix}Editanime -kimetsu  
-┣ 👊 ${prefix}Editanime -jujutsu  
-┣ 🍃 ${prefix}Editanime -naruto  
-╰━━━━━━━━━━━━━━━━━━╯  
-
-🎴 *𝐀𝐍𝐈𝐌𝐄𝐒 - 𝐈𝐌𝐀𝐆𝐄𝐌* 🎴  
-┣ 🎎 ${prefix}Animeimage -cosplay  
-┣ 💖 ${prefix}Animeimage -waifu  
-┣ 🎀 ${prefix}Animeimage -loli  
-┣ 👦 ${prefix}Animeimage -shota  
-┣ 💃 ${prefix}Animeimage -shinomiya  
-┣ 🎌 ${prefix}Animeimage -yotsuba  
-┣ 🎲 ${prefix}Animeimage -yumeko  
-┣ 🎭 ${prefix}Animeimage -tejina  
-┣ 🌸 ${prefix}Animeimage -chiho  
-┣ 🎻 ${prefix}Animeimage -kaori  
-┣ 🍃 ${prefix}Animeimage -boruto  
-┣ 🛁 ${prefix}Animeimage -shizuka  
-┣ 🏹 ${prefix}Animeimage -kaga  
-┣ 🎤 ${prefix}Animeimage -kotori  
-┣ ⚔️ ${prefix}Animeimage -mikasa  
-┣ 🏴 ${prefix}Animeimage -akiyama  
-┣ 😈 ${prefix}Animeimage -gremory  
-┣ 💪 ${prefix}Animeimage -izuku  
-┣ 📖 ${prefix}Animeimage -shina  
-┣ 🎭 ${prefix}Animeimage -shinka  
-┣ ❤️ ${prefix}Animeimage -yuri  
-┣ ✨ ${prefix}Animeimage -eba  
-┣ 🔥 ${prefix}Animeimage -erza  
-┣ 🏹 ${prefix}Animeimage -elaina  
-┣ 🥋 ${prefix}Animeimage -hinata  
-┣ 🍥 ${prefix}Animeimage -naruto  
-┣ ⚡ ${prefix}Animeimage -minato  
-┣ 🎀 ${prefix}Animeimage -sagari  
-┣ 🦊 ${prefix}Animeimage -nezuko  
-┣ 👁️ ${prefix}Animeimage -rize  
-┣ ❄️ ${prefix}Animeimage -anna  
-┣ 💥 ${prefix}Animeimage -deidara  
-┣ 🔮 ${prefix}Animeimage -asuna  
-┣ 🌸 ${prefix}Animeimage -ayuzawa  
-┣ ❄️ ${prefix}Animeimage -emilia  
-┣ 🌹 ${prefix}Animeimage -chitoge  
-┣ 🔱 ${prefix}Animeimage -hestia  
-┣ 🎼 ${prefix}Animeimage -inori  
-┣ 🌓 ${prefix}Animeimage -itachi  
-┣ 🌪️ ${prefix}Animeimage -madara  
-┣ 🌺 ${prefix}Animeimage -sakura  
-┣ 🌀 ${prefix}Animeimage -sasuke  
-┣ 🍶 ${prefix}Animeimage -tsunade  
-┣ ☠️ ${prefix}Animeimage -onepiece  
-┣ 🚗 ${prefix}Animeimage -mobil  
-┣ 🏍️ ${prefix}Animeimage -montor  
-┣ 👁️ ${prefix}Animeimage -keneki  
-┣ 🔥 ${prefix}Animeimage -megumin  
-┣ 🎑 ${prefix}Animeimage -toukachan  
-╰━━━━━━━━━━━━━━━━━━╯​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​`;
+ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​`;
 
 };
 
@@ -559,111 +512,127 @@ exports.animes = animes;
 
 const menu2 = (prefix, NomeDoBot, NickDono, sender) => {
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa. 
-return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​╭━━━❰🔥 𝐈𝐍𝐅𝐎𝐑𝐌𝐀ÇÕ𝐄𝐒 🔥❱━━━╮  
-┃ 🤖 *Bot:* ${NomeDoBot}  
-┃ 👤 *Usuário:* @${sender.split("@")[0]}  
-┃ 👑 *Dono:* ${NickDono}  
-╰━━━━━━━━━━━━━━━━━━╯  
+return `
+╭━━━❰🔥 𝐈𝐍𝐅𝐎𝐑𝐌𝐀ÇÕ𝐄𝐒 🔥❱━━━╮
+┃ 🤖 Bot: ${NomeDoBot}
+┃ 👤 Usuário: @${sender.split("@")[0]}
+┃ 👑 Dono: ${NickDono}
+╰━━━━━━━━━━━━━━━━━━╯
 
-🎵 *𝙈𝙀𝙉𝙐 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙇* 🎵  
-┣ 🛠️ ${prefix}menudono - *Menu do Dono*  
-┣ 🔰 ${prefix}menuadm - *Menu Admin*  
-┣ 🔞 ${prefix}menu18 - *Menu 18+*  
-┣ 🎶 ${prefix}playlist - *Playlist*  
-┣ 💎 ${prefix}menupremium - *Menu Premium*  
-┣ 🎨 ${prefix}logos - *Criar Logos*  
-┣ 🎭 ${prefix}brincadeiras - *Brincadeiras*  
-┣ 🏙️ ${prefix}menusabcity - *Menu Sabcity*  
-┣ 🎌 ${prefix}animes - *Menu Animes*  
-╰━━━━━━━━━━━━━━━━━━╯  
+🎵 𝙈𝙀𝙉𝙐 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙇 🎵
+┣ 🛠️ ${prefix}menudono - Menu do Dono
+┣ 🔰 ${prefix}menuadm - Menu Admin
+┣ 🔞 ${prefix}menu18 - Menu 18+
+┣ 🎶 ${prefix}playlist - Playlist
+┣ 💎 ${prefix}menupremium - Menu Premium
+┣ 🎨 ${prefix}logos - Criar Logos
+┣ 🎭 ${prefix}brincadeiras - Brincadeiras
+┣ 🏙️ ${prefix}menusabcity - Menu Sabcity
+╰━━━━━━━━━━━━━━━━━━╯
 
-🎯 *𝐂𝐌𝐃𝐒-𝐃𝐄-𝐌𝐄𝐌* 💫  
-┣ ℹ️ ${prefix}infobot - *Info do Bot*  
-┣ 🗣️ ${prefix}idiomas - *GTTS*  
-┣ 🛑 ${prefix}bug - *Relatar Erro*  
-┣ 👑 ${prefix}infodono - *Info do Dono*  
-┣ 💡 ${prefix}sugestao - *Sugerir*  
-┣ ⭐ ${prefix}avalie - *Avaliar Bot*  
-┣ 🎉 ${prefix}infowelcome - *Info Boas-Vindas*  
-╰━━━━━━━━━━━━━━━━━━╯  
+🎯 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐌𝐄𝐌 💫
+┣ ℹ️ ${prefix}tutorial
+┣ ℹ️ ${prefix}infobot - Info do Bot
+┣ 🗣️ ${prefix}idiomas - GTTS
+┣ 🛑 ${prefix}bug - Relatar Erro
+┣ 👑 ${prefix}infodono - Info do Dono
+┣ 💡 ${prefix}sugestao - Sugerir
+┣ ⭐ ${prefix}avalie - Avaliar Bot
+┣ 🎉 ${prefix}infowelcome - Info Boas-Vindas
+╰━━━━━━━━━━━━━━━━━━╯
 
-⚡ *𝐂𝐌𝐃𝐒-𝐈𝐍𝐅𝐎* 🔍  
-┣ 📶 ${prefix}ping - *Velocidade/Up*  
-┣ 📊 ${prefix}atividade - *Grupo*  
-┣ 🏆 ${prefix}rankativo - *Ranking*  
-┣ 📌 ${prefix}checkativo - *Marcar Ativos*  
-┣ 🎖️ ${prefix}ranklevel - *Ranking de Nível*  
-┣ 🏷️ ${prefix}dados - *Dados do Grupo*  
-╰━━━━━━━━━━━━━━━━━━╯  
+⚡ 𝐂𝐌𝐃𝐒-𝐈𝐍𝐅𝐎 🔍
+┣ 🔍 ${prefix}dicionario (nome)
+┣ 🔍 ${prefix}tunasearch (nome)
+┣ 🔍 ${prefix}myinstants (nome)
+┣ 😆 ${prefix}meme
+┣ 📶 ${prefix}ping - Velocidade/Up
+┣ 📊 ${prefix}atividade - Grupo
+┣ 🏆 ${prefix}rankativo - Ranking
+┣ 📌 ${prefix}checkativo - Marcar Ativos
+╰━━━━━━━━━━━━━━━━━━╯
 
-🎬 *𝐂𝐌𝐃𝐒-𝐃𝐄-𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃* 🎵  
-┣ 🔍 ${prefix}shazam - *Identificar Áudio*  
-┣ 🎼 ${prefix}play - *Tocar Música*  
-┣ 🎧 ${prefix}play2 - *Tocar Música 2*  
-┣ 🎶 ${prefix}play3 - *Tocar Música 3*  
-┣ 🎵 ${prefix}ytmp3 - *Baixar Áudio*  
-┣ 🎥 ${prefix}ytmp4 - *Baixar Vídeo*  
-┣ 📄 ${prefix}ytdoc - *Baixar Documento*  
-┣ 📺 ${prefix}playvid - *Tocar Vídeo*  
-┣ 🎷 ${prefix}playdoc - *Baixar Música*  
-┣ 🎚️ ${prefix}playmix - *Mix de Músicas*  
-┣ 📱 ${prefix}instaaudio - *Baixar Áudio Instagram*  
-┣ 📹 ${prefix}instavideo - *Baixar Vídeo Instagram*  
-╰━━━━━━━━━━━━━━━━━━╯  
+🎬 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 🎵
+┣ 🔍 ${prefix}threads (link)
+┣ 🔍 ${prefix}soundcloud (link)
+┣ 🔍 ${prefix}sound_clouds (link)
+┣ 🔍 ${prefix}shazam - Identificar Áudio
+┣ 🎼 ${prefix}play - Tocar Música
+┣ 🎧 ${prefix}play2 - Tocar Música 2
+┣ 🎶 ${prefix}play3 - Tocar Música 3
+┣ 🎵 ${prefix}ytmp3 - Baixar Áudio
+┣ 🎥 ${prefix}ytmp4 - Baixar Vídeo
+┣ 📄 ${prefix}ytdoc - Baixar Documento
+┣ 📄 ${prefix}ytmp4doc - Baixar Documento
+┣ 📺 ${prefix}playvid - Tocar Vídeo
+┣ 📺 ${prefix}playvid2 - Tocar Vídeo
+┣ 📺 ${prefix}playvid3 - Tocar Vídeo
+┣ 📺 ${prefix}playvid4 - Tocar Vídeo
+┣ 📱 ${prefix}instaaudio - Baixar Áudio Instagram
+┣ 📹 ${prefix}instavideo - Baixar Vídeo Instagram
+┣ 📹 ${prefix}ttkmp4 (link)
+┣ 🎵 ${prefix}ttkmp3 (link)
+┣ 📹 ${prefix}tiktokvideo (link)
+┣ 🎵 ${prefix}tiktokaudio (link)
+╰━━━━━━━━━━━━━━━━━━╯
 
-🔎 *𝐂𝐌𝐃𝐒-𝐃𝐄-𝐏𝐄𝐒𝐐𝐔𝐈𝐒𝐀* 🧩  
-┣ 🔗 ${prefix}gerarlink - *Gerar Link*  
-┣ 🖼️ ${prefix}upload - *Upload de Imagem*  
-┣ 🎥 ${prefix}upload2 - *Upload de Vídeo*  
-┣ ✍️ ${prefix}pensador - *Frases*  
-┣ 🌦️ ${prefix}clima - *Previsão do Tempo*  
-┣ 📚 ${prefix}book - *Buscar Livro*  
-┣ 🎬 ${prefix}movie - *Buscar Filme*  
-┣ 🎥 ${prefix}imdbinfo - *Info do Filme*  
-┣ 🛒 ${prefix}amazon - *Buscar Produtos*  
-┣ 🔍 ${prefix}googlesrc - *Buscar Google*  
-┣ 📌 ${prefix}pinterest - *Pinterest*  
-┣ 📞 ${prefix}operadora-info - *Info Número*  
-╰━━━━━━━━━━━━━━━━━━╯  
+🔎 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐏𝐄𝐒𝐐𝐔𝐈𝐒𝐀 🧩
+┣ 🎵 ${prefix}videosom - Transformar vídeo em áudio
+┣ 🔗 ${prefix}gerarlink - Gerar Link
+┣ 🖼️ ${prefix}upload - Upload de Imagem
+┣ 🎥 ${prefix}upload2 - Upload de Vídeo
+┣ 🌦️ ${prefix}clima - Previsão do Tempo
+┣ 📚 ${prefix}book - Buscar Livro
+┣ 🎬 ${prefix}movie - Buscar Filme
+┣ 📌 ${prefix}pinterest - Pinterest
+╰━━━━━━━━━━━━━━━━━━╯
 
-🤖 *𝐂𝐌𝐃𝐒-𝐃𝐄-𝐈𝐀* ⚙  
-┣ ✏️ ${prefix}corretor - *Corretor de Texto*  
-┣ 🤖 ${prefix}gpt-4 - *Conversar com GPT*  
-┣ 🎙️ ${prefix}totext - *Áudio para Texto*  
-╰━━━━━━━━━━━━━━━━━━╯  
+🤖 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐈𝐀 ⚙
+┣ 🤖 ${prefix}googleai
+┣ 🤖 ${prefix}gpt
+┣ 🤖 ${prefix}llama-ai
+┣ 🤖 ${prefix}mistral-ai
+┣ 🤖 ${prefix}gemini-pro - Conversar com gemini-pro
+┣ 🤖 ${prefix}gemini - Conversar com gemini
+┣ 🎙️ ${prefix}totext - Áudio para Texto
+╰━━━━━━━━━━━━━━━━━━╯
 
-📸 *𝐂𝐌𝐃𝐒-𝐃𝐄-𝐅𝐈𝐆𝐔𝐑𝐈𝐍𝐇𝐀* 🌟  
-┣ 📝 ${prefix}ttp - *Criar TTP*  
-┣ 🖼️ ${prefix}fsticker - *Criar Sticker*  
-┣ 📷 ${prefix}sticker - *Marcar Foto*
-┣ 📷 ${prefix}roubar -*STICKER TXT/TXT*
-┣ 📷 ${prefix}togif  - *Marcar gif*
-┣ 🔄 ${prefix}toimg - *Converter Sticker*  
-┣ 🎲 ${prefix}figaleatoria - *Fig Aleatória*  
-╰━━━━━━━━━━━━━━━━━━╯  
+📸 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐅𝐈𝐆𝐔𝐑𝐈𝐍𝐇𝐀 🌟
+┣ 📝 ${prefix}ttp - Criar TTP
+┣ 📝 ${prefix}attp
+┣ 🖼️ ${prefix}fsticker - Criar Sticker
+┣ 📷 ${prefix}sticker - Marcar Foto
+┣ 🔄 ${prefix}toimg - Converter Sticker
+┣ 🎭 ${prefix}figuemoji - Figurinhas de Emoji
+┣ 🎮 ${prefix}figuroblox - Figurinhas de Roblox
+┣ 😂 ${prefix}figuengracadas - Figurinhas Engraçadas
+┣ 🐶 ${prefix}figuanimais - Figurinhas de Animais
+┣ 🎨 ${prefix}figudesenho - Figurinhas de Desenho
+┣ 👶 ${prefix}figubebe - Figurinhas de Bebês
+┣ 🎌 ${prefix}figuanime - Figurinhas de Anime
+┣ 💐 ${prefix}figuflork - Figurinhas de Flork
+┣ 🎭 ${prefix}figurinhas - Diversas Figurinhas
+╰━━━━━━━━━━━━━━━━━━╯
 
-🎲 *𝐂𝐌𝐃𝐒-𝐃𝐄-𝐀𝐋𝐄𝐀𝐓𝐎𝐑𝐈𝐎* 🎲  
-┣ 🪑 ${prefix}sentar - *Comando Sentar*  
-┣ 🔊 ${prefix}gtts - *Texto para Fala*  
-┣ 🏷️ ${prefix}tagme - *Marcar Usuário*  
-┣ 😀 ${prefix}emojimix - *Criar Emoji*  
-┣ 💘 ${prefix}cantadas - *Gerar Cantadas*  
-┣ 🗨️ ${prefix}simi - *Falar com Simi*  
-┣ 🤖 ${prefix}jeff - *Falar com Jeff*  
-┣ 🦊 ${prefix}katy - *Falar com Katy*  
-┣ 🆔 ${prefix}perfil - *Ver Perfil*  
-┣ 🧮 ${prefix}calcular - *Calcular Expressão*  
-┣ 📝 ${prefix}fakechat - *Conversar Fake*  
-┣ 💬 ${prefix}morechat - *Mais Mensagens*  
-┣ ⚖️ ${prefix}obesidade - *Calcular IMC*  
-┣ 📆 ${prefix}contardias - *Contar Dias*  
-┣ 🎼 ${prefix}ringtone - *Criar Toque*  
-┣ 🎭 ${prefix}fazernick - *Gerar Nick*  
-┣ 📩 ${prefix}ptvmsg - *Mensagem Privada*  
-┣ 📜 ${prefix}listaddd - *Adicionar Números*  
-┣ 🇧🇷 ${prefix}listabr - *Listar Números BR*  
-┣ 🌍 ${prefix}listaddi - *Adicionar Internacional*  
-╰━━━━━━━━━━━━━━━━━━╯​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​`;
+🎲 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐀𝐋𝐄𝐀𝐓𝐎𝐑𝐈𝐎 🎲
+┣ 🪑 ${prefix}sentar - Comando Sentar
+┣ 🔊 ${prefix}gtts - Texto para Fala
+┣ 🏷️ ${prefix}tagme - Marcar Usuário
+┣ 💘 ${prefix}cantadas - Gerar Cantadas
+┣ 🗨️ ${prefix}simi - Falar com Simi
+┣ 🤖 ${prefix}jeff - Falar com Jeff
+┣ 🆔 ${prefix}perfil - Ver Perfil
+┣ 🧮 ${prefix}calcular - Calcular Expressão
+┣ 📝 ${prefix}fakechat - Conversar Fake
+┣ ⚖️ ${prefix}obesidade - Calcular IMC
+┣ 📆 ${prefix}contardias - Contar Dias
+┣ 🎭 ${prefix}fazernick - Gerar Nick
+┣ 📩 ${prefix}ptvmsg - Mensagem Privada
+┣ 🔍 ${prefix}numero - Buscar Número
+┣ 🔍 ${prefix}cep - Buscar CEP
+┣ 🔍 ${prefix}cep2 - Buscar CEP Detalhado
+╰━━━━━━━━━━━━━━━━━━╯
+​`;
 
 };
 

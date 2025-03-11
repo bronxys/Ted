@@ -34,7 +34,7 @@
   },
   "name": "ted-nexmart",
   "description": "Sempre buscando melhorar, qualquer dúvida entra em contato comigo por meio do WhatsApp: +55 99 99224-1471",
-  "version": "3.8.0",
+  "version": "3.9.0",
   "main": "index.js",
   "scripts": {
     "start": "ulimit -c 0 && bash start.sh sim",

@@ -63,11 +63,13 @@
     "simi1": false,
     "autosticker": false,
     "autoresposta": false,
-    "jogos": false,
+    "jogos": true,
     "level": false,
     "bangp": false,
     "nsfw": false,
     "aluguel": true,
-    "isativatexto": false
+    "isativatexto": false,
+    "antivideo": true,
+    "audioAtivado": true
   }
 ]
