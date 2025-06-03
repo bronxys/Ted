@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.12",
+    "@whiskeysockets/baileys": "^6.7.17",
     "acrcloud": "^1.4.0",
     "assemblyai": "^2.0.2",
     "awesome-phonenumber": "^6.1.0",
@@ -34,7 +34,7 @@
   },
   "name": "ted-nexmart",
   "description": "Sempre buscando melhorar, qualquer dúvida entra em contato comigo por meio do WhatsApp: +55 99 99224-1471",
-  "version": "3.9.0",
+  "version": "4.1.0",
   "main": "index.js",
   "scripts": {
     "start": "ulimit -c 0 && bash start.sh sim",

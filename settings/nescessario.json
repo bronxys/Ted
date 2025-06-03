@@ -36,5 +36,6 @@
   "numero_dono5": ".",
   "numero_dono6": ".",
   "botoff": false,
-  "Odelete": false
+  "Odelete": false,
+  "isBlockCmdG": []
 }

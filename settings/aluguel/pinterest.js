@@ -1,1 +1,39 @@
-const _0x55cb3a=_0xfed7;(function(_0x20e7c7,_0x4ae41c){const _0x1b49dc=_0xfed7,_0x39e7e8=_0x20e7c7();while(!![]){try{const _0x4ccec1=-parseInt(_0x1b49dc(0xb2))/0x1+-parseInt(_0x1b49dc(0xb1))/0x2+-parseInt(_0x1b49dc(0xba))/0x3+-parseInt(_0x1b49dc(0xb0))/0x4+-parseInt(_0x1b49dc(0xb6))/0x5+-parseInt(_0x1b49dc(0xb5))/0x6*(-parseInt(_0x1b49dc(0xb7))/0x7)+parseInt(_0x1b49dc(0xaf))/0x8;if(_0x4ccec1===_0x4ae41c)break;else _0x39e7e8['push'](_0x39e7e8['shift']());}catch(_0x4ef338){_0x39e7e8['push'](_0x39e7e8['shift']());}}}(_0x4351,0xd8b01));const fetch=require(_0x55cb3a(0xb8));function _0x4351(){const _0x1616b7=['Digite\x20o\x20nome\x20da\x20imagem\x20que\x20você\x20quer\x20buscar','exports','Erro\x20ao\x20buscar\x20imagem\x20no\x20Pinterest','buffer','27400520vaHhUF','2734808SEBnfl','3384112NbgZVf','266598BAOGvF','error','https://blacksystemofc.com.br/api/pinterest2?text=','2062986UZOeeW','4693540huFXaP','35CrLfIk','node-fetch','&apikey=tedbot560683','2026809nlZdLT'];_0x4351=function(){return _0x1616b7;};return _0x4351();}async function buscarImagemPinterest(_0x290714){const _0x5344cc=_0x55cb3a;try{if(!_0x290714)throw new Error(_0x5344cc(0xbb));const _0x10b52c=await fetch(_0x5344cc(0xb4)+_0x290714+_0x5344cc(0xb9)),_0x5591d2=await _0x10b52c[_0x5344cc(0xbe)]();return _0x5591d2;}catch(_0x56c4dc){console[_0x5344cc(0xb3)](_0x56c4dc);throw new Error(_0x5344cc(0xbd));}}function _0xfed7(_0x576d22,_0x1127a5){const _0x43517b=_0x4351();return _0xfed7=function(_0xfed798,_0x3f144a){_0xfed798=_0xfed798-0xaf;let _0x2cee2d=_0x43517b[_0xfed798];return _0x2cee2d;},_0xfed7(_0x576d22,_0x1127a5);}module[_0x55cb3a(0xbc)]={'buscarImagemPinterest':buscarImagemPinterest};
+// Arquivo corrigido para melhorar a segurança e tratamento de erros
+const fetch = require("node-fetch");
+
+/**
+ * Busca imagens no Pinterest com base no texto fornecido
+ * @param {string} texto - Texto para buscar imagens
+ * @returns {Promise<Buffer>} - Buffer da imagem encontrada
+ */
+async function buscarImagemPinterest(texto) {
+    try {
+        if (!texto) {
+            throw new Error("Digite o nome da imagem que você quer buscar");
+        }
+        
+        // Codificar o texto para URL
+        const textoEncoded = encodeURIComponent(texto);
+        
+        // URL da API com o texto codificado
+        const url = `https://blacksystemofc.com.br/api/pinterest2?text=${textoEncoded}&apikey=tedbot560683`;
+        
+        // Fazer a requisição
+        const response = await fetch(url);
+        
+        // Verificar se a resposta foi bem-sucedida
+        if (!response.ok) {
+            throw new Error(`Erro na API: ${response.status} ${response.statusText}`);
+        }
+        
+        // Obter o buffer da imagem
+        const buffer = await response.buffer();
+        
+        return buffer;
+    } catch (error) {
+        console.error("Erro ao buscar imagem no Pinterest:", error);
+        throw new Error("Erro ao buscar imagem no Pinterest");
+    }
+}
+
+module.exports = { buscarImagemPinterest };

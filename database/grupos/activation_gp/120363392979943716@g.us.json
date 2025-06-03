@@ -38,11 +38,18 @@
         "tema": 0
       }
     ],
-    "ausentes": [],
+    "ausentes": [
+      {
+        "id": "559991760355",
+        "msg": "Estou ocupado agora.",
+        "timestamp": "21:53:41"
+      }
+    ],
     "forca_inc": false,
     "antipalavrao": {
       "active": false,
-      "palavras": []
+      "palavras": [],
+      "ativo": false
     },
     "limitec": {
       "active": false,
@@ -50,7 +57,7 @@
     },
     "wellcome": [
       {
-        "bemvindo1": false,
+        "bemvindo1": true,
         "legendabv": "Olá #numerodele#, seja bem vindo (a) ao grupo: #nomedogp#",
         "legendasaiu": "#numerodele# – Saiu do grupo: #nomedogp#"
       },

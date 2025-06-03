@@ -8,7 +8,6 @@ const adms = (prefix, sender) => {
 ╭┤⋟ Usuário: @${sender.split("@")[0]}
 ┃╰══ 🔧
 ╰╦═════════════════ 🛠️
-╭┤ 〘📢〙➢ ${prefix}audios (1/0)
 ╭┤ 〘📜〙➢ ${prefix}ativatexto (1/0)
 ╭┤ 〘⏱️〙➢ ${prefix}tmpgp 5m/1h
 ┃│ 〘🖼️〙➢ ${prefix}Antiimg (1/0)
@@ -74,6 +73,9 @@ const adms = (prefix, sender) => {
 ┃│ 〘🎯〙➢ ${prefix}Marcar (marca tds do gp)
 ┃│ 〘📱〙➢ ${prefix}Marcar2 (Marca-tds-wa.me)
 ┃│ 〘🔠〙➢ ${prefix}Antipalavra (1/0)
+┃│ 〘👾〙➢ ${prefix}adverter
+┃│ 〘🔍〙➢ ${prefix}listadvs
+┃│ 〘🫵〙➢ ${prefix}rmadv
 ╰══ 🛠️
 ╰══════════════════ ⚙️​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​`;
 };
@@ -531,35 +533,33 @@ return `
 ╰━━━━━━━━━━━━━━━━━━╯
 
 🎯 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐌𝐄𝐌 💫
-┣ ℹ️ ${prefix}tutorial
 ┣ ℹ️ ${prefix}infobot - Info do Bot
-┣ 🗣️ ${prefix}idiomas - GTTS
-┣ 🛑 ${prefix}bug - Relatar Erro
+┣ 🗣️ ${prefix}idiomas - GTTS 
+┣ 🛑 ${prefix}bug - Relatar Erro 
 ┣ 👑 ${prefix}infodono - Info do Dono
-┣ 💡 ${prefix}sugestao - Sugerir
-┣ ⭐ ${prefix}avalie - Avaliar Bot
-┣ 🎉 ${prefix}infowelcome - Info Boas-Vindas
+┣ 💡 ${prefix}sugestao - Sugerir 
+┣ ⭐ ${prefix}avalie - Avaliar Bot 
+┣ 🎉 ${prefix}infowelcome - Info Boas-Vindas 
 ╰━━━━━━━━━━━━━━━━━━╯
 
 ⚡ 𝐂𝐌𝐃𝐒-𝐈𝐍𝐅𝐎 🔍
-┣ 🔍 ${prefix}dicionario (nome)
-┣ 🔍 ${prefix}tunasearch (nome)
+┣ 🔍 ${prefix}tunasearch (nome) 
 ┣ 🔍 ${prefix}myinstants (nome)
 ┣ 😆 ${prefix}meme
 ┣ 📶 ${prefix}ping - Velocidade/Up
 ┣ 📊 ${prefix}atividade - Grupo
-┣ 🏆 ${prefix}rankativo - Ranking
+┣ 🏆 ${prefix}rankativo - Ranking 
 ┣ 📌 ${prefix}checkativo - Marcar Ativos
 ╰━━━━━━━━━━━━━━━━━━╯
 
 🎬 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 🎵
 ┣ 🔍 ${prefix}threads (link)
-┣ 🔍 ${prefix}soundcloud (link)
+┣ 🔍 ${prefix}threadsmp3 (link)
+┣ 🔍 ${prefix}soundcloud (link) 
 ┣ 🔍 ${prefix}sound_clouds (link)
 ┣ 🔍 ${prefix}shazam - Identificar Áudio
-┣ 🎼 ${prefix}play - Tocar Música
-┣ 🎧 ${prefix}play2 - Tocar Música 2
-┣ 🎶 ${prefix}play3 - Tocar Música 3
+┣ 🎼 ${prefix}play - Tocar Música 
+┣ 🎧 ${prefix}play2 - Tocar Música 2 
 ┣ 🎵 ${prefix}ytmp3 - Baixar Áudio
 ┣ 🎥 ${prefix}ytmp4 - Baixar Vídeo
 ┣ 📄 ${prefix}ytdoc - Baixar Documento
@@ -567,7 +567,6 @@ return `
 ┣ 📺 ${prefix}playvid - Tocar Vídeo
 ┣ 📺 ${prefix}playvid2 - Tocar Vídeo
 ┣ 📺 ${prefix}playvid3 - Tocar Vídeo
-┣ 📺 ${prefix}playvid4 - Tocar Vídeo
 ┣ 📱 ${prefix}instaaudio - Baixar Áudio Instagram
 ┣ 📹 ${prefix}instavideo - Baixar Vídeo Instagram
 ┣ 📹 ${prefix}ttkmp4 (link)
@@ -584,53 +583,53 @@ return `
 ┣ 🌦️ ${prefix}clima - Previsão do Tempo
 ┣ 📚 ${prefix}book - Buscar Livro
 ┣ 🎬 ${prefix}movie - Buscar Filme
-┣ 📌 ${prefix}pinterest - Pinterest
+┣ 📌 ${prefix}pinterest - Pinterest 
+┣ 📌 ${prefix}Pintemp3 - baixar áudio 
+┣ 📌 ${prefix}Pintemp4 - baixa vídeo 
+
 ╰━━━━━━━━━━━━━━━━━━╯
 
 🤖 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐈𝐀 ⚙
-┣ 🤖 ${prefix}googleai
-┣ 🤖 ${prefix}gpt
-┣ 🤖 ${prefix}llama-ai
-┣ 🤖 ${prefix}mistral-ai
-┣ 🤖 ${prefix}gemini-pro - Conversar com gemini-pro
-┣ 🤖 ${prefix}gemini - Conversar com gemini
-┣ 🎙️ ${prefix}totext - Áudio para Texto
+┣ 🤖 ${prefix}googleai 
+┣ 🤖 ${prefix}llama-ai 
+┣ 🤖 ${prefix}mistral-ai 
+┣ 🎙️ ${prefix}totext - Áudio para Texto 
 ╰━━━━━━━━━━━━━━━━━━╯
 
 📸 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐅𝐈𝐆𝐔𝐑𝐈𝐍𝐇𝐀 🌟
-┣ 📝 ${prefix}ttp - Criar TTP
-┣ 📝 ${prefix}attp
-┣ 🖼️ ${prefix}fsticker - Criar Sticker
-┣ 📷 ${prefix}sticker - Marcar Foto
-┣ 🔄 ${prefix}toimg - Converter Sticker
-┣ 🎭 ${prefix}figuemoji - Figurinhas de Emoji
-┣ 🎮 ${prefix}figuroblox - Figurinhas de Roblox
-┣ 😂 ${prefix}figuengracadas - Figurinhas Engraçadas
-┣ 🐶 ${prefix}figuanimais - Figurinhas de Animais
-┣ 🎨 ${prefix}figudesenho - Figurinhas de Desenho
-┣ 👶 ${prefix}figubebe - Figurinhas de Bebês
-┣ 🎌 ${prefix}figuanime - Figurinhas de Anime
-┣ 💐 ${prefix}figuflork - Figurinhas de Flork
-┣ 🎭 ${prefix}figurinhas - Diversas Figurinhas
+┣ 📝 ${prefix}ttp - Criar TTP 
+┣ 📝 ${prefix}attp 
+┣ 🖼️ ${prefix}fsticker - Criar Sticker 
+┣ 📷 ${prefix}sticker - Marcar Foto 
+┣ 🔄 ${prefix}toimg - Converter Sticker 
+┣ ✨ ${prefix}figuemoji - Figurinhas de Emoji  
+┣ 🎮 ${prefix}figuroblox - Figurinhas de Roblox  
+┣ 😂 ${prefix}figuengracadas - Figurinhas Engraçadas  
+┣ 🐾 ${prefix}figuanimais - Figurinhas de Animais  
+┣ 🎨 ${prefix}figudesenho - Figurinhas de Desenho  
+┣ 🍼 ${prefix}figubebe - Figurinhas de Bebês  
+┣ 🌸 ${prefix}figuanime - Figurinhas de Anime  
+┣ 💐 ${prefix}figuflork - Figurinhas de Flork 
+┣ 🔥 ${prefix}figurinhas - Figurinhas Variadas
+┣ 🎭 ${prefix}figurinhas - Diversas Figurinhas 
 ╰━━━━━━━━━━━━━━━━━━╯
 
 🎲 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐀𝐋𝐄𝐀𝐓𝐎𝐑𝐈𝐎 🎲
-┣ 🪑 ${prefix}sentar - Comando Sentar
-┣ 🔊 ${prefix}gtts - Texto para Fala
-┣ 🏷️ ${prefix}tagme - Marcar Usuário
-┣ 💘 ${prefix}cantadas - Gerar Cantadas
-┣ 🗨️ ${prefix}simi - Falar com Simi
-┣ 🤖 ${prefix}jeff - Falar com Jeff
-┣ 🆔 ${prefix}perfil - Ver Perfil
-┣ 🧮 ${prefix}calcular - Calcular Expressão
-┣ 📝 ${prefix}fakechat - Conversar Fake
-┣ ⚖️ ${prefix}obesidade - Calcular IMC
-┣ 📆 ${prefix}contardias - Contar Dias
-┣ 🎭 ${prefix}fazernick - Gerar Nick
-┣ 📩 ${prefix}ptvmsg - Mensagem Privada
-┣ 🔍 ${prefix}numero - Buscar Número
-┣ 🔍 ${prefix}cep - Buscar CEP
-┣ 🔍 ${prefix}cep2 - Buscar CEP Detalhado
+┣ 🪑 ${prefix}sentar - Comando Sentar 
+┣ 🔊 ${prefix}gtts - Texto para Fala 
+┣ 🏷️ ${prefix}tagme - Marcar Usuário 
+┣ 💘 ${prefix}cantadas - Gerar Cantadas 
+┣ 🗨️ ${prefix}simi - Falar com Simi 
+┣ 🤖 ${prefix}jeff - Falar com Jeff 
+┣ 🆔 ${prefix}perfil - Ver Perfil 
+┣ 🧮 ${prefix}calcular - Calcular Expressão 
+┣ 📝 ${prefix}fakechat - Conversar Fake 
+┣ ⚖️ ${prefix}obesidade - Calcular IMC 
+┣ 📆 ${prefix}contardias - Contar Dias 
+┣ 📩 ${prefix}ptvmsg - Mensagem Privada 
+┣ 🔍 ${prefix}numero - Buscar Número 
+┣ 🔍 ${prefix}cep - Buscar CEP 
+┣ 🔍 ${prefix}cep2 - Buscar CEP Detalhado 
 ╰━━━━━━━━━━━━━━━━━━╯
 ​`;
 
@@ -643,7 +642,7 @@ const playlist2 = (prefix, NomeDoBot, NickDono, pushname, date, hora, sender) =>
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa. 
 return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​╭━━ ⪩🔥 *𝐈𝐍𝐅𝐎𝐑𝐌𝐀ÇÕ𝐄𝐒* 🔥⪨ ━━╮  
 ┃ 🛠️ Bot: ${pushname}  
-┃ 🏷️ Versão: 𝐕𝟑.6  
+┃ 🏷️ Versão: 𝐕4.1  
 ┃ 📅 Data: ${date}  
 ┃ ⏰ Hora: ${hora}  
 ┃ 👤 Usuário: @${sender.split("@")[0]}  
@@ -654,19 +653,12 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ╰━━━━━━━━━━━━━━━━━━━━╯  
 
 🎶 *Lista de Músicas:*  
-┣ 🎧 ${prefix}L7  
-┣ 🎶 ${prefix}Funk  
-┣ 🎤 ${prefix}Sofrência  
-┣ 🎼 ${prefix}Orochi  
+┣ 🎧 ${prefix}L7   
+┣ 🎶 ${prefix}Funk   
+┣ 🎤 ${prefix}Sofrência   
+┣ 🎼 ${prefix}Orochi   
 ╰━━━━━━━━━━━━━━━━━━━━╯​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​`;
 
 };
 
 exports.playlist2 = playlist2;
-
-
-
-
-
-
-

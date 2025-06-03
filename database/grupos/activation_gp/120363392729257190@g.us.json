@@ -7,7 +7,7 @@
     "antidoc": false,
     "antilinkgp": false,
     "antilinkhard": false,
-    "antifake": false,
+    "antifake": true,
     "antiporn": false,
     "Odelete": false,
     "antispam": false,
@@ -68,8 +68,8 @@
     "bangp": false,
     "nsfw": false,
     "aluguel": true,
-    "isativatexto": false,
+    "isativatexto": true,
     "antivideo": true,
-    "audioAtivado": true
+    "audioAtivado": false
   }
 ]

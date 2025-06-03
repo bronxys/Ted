@@ -55,7 +55,7 @@
     },
     "wellcome": [
       {
-        "bemvindo1": false,
+        "bemvindo1": true,
         "legendabv": "Olá #numerodele#, seja bem vindo (a) ao grupo: #nomedogp#",
         "legendasaiu": "#numerodele# – Saiu do grupo: #nomedogp#"
       },
@@ -74,6 +74,7 @@
     "bangp": false,
     "nsfw": true,
     "aluguel": false,
-    "autotranscricao": true
+    "autotranscricao": true,
+    "audioAtivado": true
   }
 ]
