@@ -8,8 +8,10 @@ const adms = (prefix, sender) => {
 ╭┤⋟ Usuário: @${sender.split("@")[0]}
 ┃╰══ 🔧
 ╰╦═════════════════ 🛠️
-╭┤ 〘📜〙➢ ${prefix}ativatexto (1/0)
-╭┤ 〘⏱️〙➢ ${prefix}tmpgp 5m/1h
+╭┤ 〘🤖〙➢ ${prefix}.antibot (on off)
+┃│ 〘👾〙➢ ${prefix}audios (1/0)
+┃│ 〘📜〙➢ ${prefix}ativatexto (1/0)
+┃│ 〘⏱️〙➢ ${prefix}tmpgp 5m/1h
 ┃│ 〘🖼️〙➢ ${prefix}Antiimg (1/0)
 ┃│ 〘🖼️〙➢ ${prefix}antivideo (1/0)
 ┃│ 〘🔒〙➢ ${prefix}antispam (1/0)
@@ -19,7 +21,7 @@ const adms = (prefix, sender) => {
 ┃│ 〘🚫〙➢ ${prefix}Antifake (1/0)
 ┃│ 〘🔒〙➢ ${prefix}Antinotas (1/0)
 ┃│ 〘📚〙➢ ${prefix}Anticatalogo (1/0)
-┃│ 〘🔠〙➢ ${prefix}Antipalavrao (1/0)
+┃│ 〘🔠〙➢ ${prefix}Antipalavra (1/0)
 ┃│ 〘🎉〙➢ ${prefix}Bemvindo (1/0)
 ┃│ 〘🎉〙➢ ${prefix}Bemvindo2 (1/0)
 ┃│ 〘🤖〙➢ ${prefix}Simih (1/0)
@@ -64,18 +66,21 @@ const adms = (prefix, sender) => {
 ┃│ 〘🔄〙➢ ${prefix}Status
 ┃│ 〘🧹〙➢ ${prefix}Limpar (texto-invisível-gp)
 ┃│ 〘📊〙➢ ${prefix}Atividades (DO-GRUPO)
-┃│ 〘🔗〙➢ ${prefix}Linkgp
-┃│ 〘ℹ️〙➢ ${prefix}Grupoinfo
+┃│ 〘🔗〙➢ ${prefix}Linkgp 
+┃│ 〘ℹ️〙 ➢ ${prefix}Grupoinfo
 ┃│ 〘🚫〙➢ ${prefix}Blockcmdgp (cmd)
 ┃│ 〘🔓〙➢ ${prefix}Unblockcmdgp (cmd)
 ┃│ 〘📋〙➢ ${prefix}Listbcmdgp
 ┃│ 〘🎯〙➢ ${prefix}Hidetag (txt) (marcação)
 ┃│ 〘🎯〙➢ ${prefix}Marcar (marca tds do gp)
 ┃│ 〘📱〙➢ ${prefix}Marcar2 (Marca-tds-wa.me)
-┃│ 〘🔠〙➢ ${prefix}Antipalavra (1/0)
 ┃│ 〘👾〙➢ ${prefix}adverter
 ┃│ 〘🔍〙➢ ${prefix}listadvs
 ┃│ 〘🫵〙➢ ${prefix}rmadv
+┃│〘💬〙➢ ${prefix}Addpalavra (palavrão)  
+┃│〘💬〙➢ ${prefix}Delpalavra (remover) 
+┃│〘💬〙➢ ${prefix}listpalavra (palavrão)  
+
 ╰══ 🛠️
 ╰══════════════════ ⚙️​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​`;
 };
@@ -104,15 +109,14 @@ const menu18 = (prefix, NomeDoBot, NickDono, sender) => {
 ┃│ 🫦 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨 𝙝𝙚𝙣𝙩𝙖𝙞 🫦
 ┃│ ╚━━━━━━━━━━━━━━━╝
 ┃│〘🎱〙➢ ${prefix}overflow-1 ( 1 a 8 )
-┃│〘🎱〙➢ ${prefix}fig+18
-┃│〘🎱〙➢ ${prefix}hinata
+┃│〘🎱〙➢ ${prefix}masturbation2
 ┃│〘🎱〙➢ ${prefix}loli2
-┃│〘🎱〙➢ ${prefix}miku
-┃│〘🎱〙➢ ${prefix}orgia
 ┃│〘🎱〙➢ ${prefix}cosplay2
 ┃│〘🎱〙➢ ${prefix}loli1
+┃│〘🎱〙➢ ${prefix}hinata
+┃│〘🎱〙➢ ${prefix}orgia
+┃│〘🎱〙➢ ${prefix}miku
 ┃│〘🎱〙➢ ${prefix}hentai_gifs
-┃│〘🎱〙➢ ${prefix}masturbation2
 ┃│〘🎱〙➢ ${prefix}lésbica
 ┃│ ╔━━━━━━━━━━━━━━━╗
 ┃│ 😈 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨 𝙙𝙚 𝙫𝙞𝙙𝙚𝙤𝙨 😈
@@ -128,29 +132,12 @@ const menu18 = (prefix, NomeDoBot, NickDono, sender) => {
 ┃│ ╔━━━━━━━━━━━━━━━╗
 ┃│ 🤤  𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨 𝙛𝙤𝙩𝙤𝙨   🤤
 ┃│ ╚━━━━━━━━━━━━━━━╝
-┃│〘🎱〙➢ ${prefix}hentai-gay
-┃│〘🎱〙➢ ${prefix}lesbian
-┃│〘🎱〙➢ ${prefix}bdms
-┃│〘🎱〙➢ ${prefix}blowjob
-┃│〘🎱〙➢ ${prefix}cuckold
-┃│〘🎱〙➢ ${prefix}cum
-┃│〘🎱〙➢ ${prefix}ero
-┃│〘🎱〙➢ ${prefix}femdom
-┃│〘🎱〙➢ ${prefix}foot
-┃│〘🎱〙➢ ${prefix}gankbang
-┃│〘🎱〙➢ ${prefix}glasses
-┃│〘🎱〙➢ ${prefix}hentai
-┃│〘🎱〙➢ ${prefix}jahy
-┃│〘🎱〙➢ ${prefix}manga
-┃│〘🎱〙➢ ${prefix}neko
-┃│〘🎱〙➢ ${prefix}orgy
-┃│〘🎱〙➢ ${prefix}panties
-┃│〘🎱〙➢ ${prefix}pussy
-┃│〘🎱〙➢ ${prefix}neko2
-┃│〘🎱〙➢ ${prefix}tentacles
-┃│〘🎱〙➢ ${prefix}thighs
-┃│〘🎱〙➢ ${prefix}yuri
-┃│〘🎱〙➢ ${prefix}zettai
+┃│〘🎱〙➢ ${prefix}foto1
+┃│〘🎱〙➢ ${prefix}foto2
+┃│〘🎱〙➢ ${prefix}foto3
+┃│〘🎱〙➢ ${prefix}foto4
+┃│〘🎱〙➢ ${prefix}foto5
+┃│〘🎱〙➢ ${prefix}foto6
 ┃│ ╔━━━━━━━━━━━━━━━╗
 ┃│ 😼 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨 𝙂𝙄𝙁𝙎+18 😼
 ┃│ ╚━━━━━━━━━━━━━━━╝
@@ -164,16 +151,7 @@ const menu18 = (prefix, NomeDoBot, NickDono, sender) => {
 ┃│ ╔━━━━━━━━━━━━━━━╗
 ┃│ 😈 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨 𝙊𝙉𝙇𝙔  😈
 ┃│ ╚━━━━━━━━━━━━━━━╝
-┃│〘🎱〙➢ ${prefix}only1
-┃│〘🎱〙➢ ${prefix}only2
-┃│〘🎱〙➢ ${prefix}only3
-┃│〘🎱〙➢ ${prefix}only4
-┃│〘🎱〙➢ ${prefix}only5
-┃│〘🎱〙➢ ${prefix}only6
-┃│〘🎱〙➢ ${prefix}only6
-┃│〘🎱〙➢ ${prefix}only7
-┃│〘🎱〙➢ ${prefix}only8
-┃│〘🎱〙➢ ${prefix}only9
+
 ┃╰───────────────💎
 ╰━════════⊷🫵`;
 };
@@ -221,10 +199,6 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┃│〘✔️〙➢ ${prefix}Verificado-global (Selos)  
 ╰╦══════════════════ ⚙️  
 ╭┤🛠️ *Gerenciamento de Palavras e Comandos* 🛠️  
-┃│〘💬〙➢ ${prefix}Addpalavra (palavrão)  
-┃│〘💬〙➢ ${prefix}Delpalavra (palavrão)  
-┃│〘🔥〙➢ ${prefix}Rmpalavra_forca (palavra)  
-┃│〘✨〙➢ ${prefix}Addpalavras_forca (titulo|tema|dica)  
 ┃│〘📜〙➢ ${prefix}Listbcmdglobal  
 ┃│〘🚫〙➢ ${prefix}Blockcmdg (comando)  
 ┃│〘✅〙➢ ${prefix}Unblockcmdg (comando)  
@@ -265,53 +239,79 @@ const menulogos = (prefix, sender) => {
 ┃╰══ 🌟
 ╰╦══════════════════ 🖋️
 ╭┤🖋️ 𝐋𝐎𝐆𝐎𝐒 𝟏 𝐓𝐄𝐗𝐓𝐎 🖋️
-┃│〘🎨〙➢ ${prefix}Anime - Texto
-┃│〘🎨〙➢ ${prefix}Anime2 - Texto
-┃│〘🕹️〙➢ ${prefix}Game - Texto
-┃│〘❄️〙➢ ${prefix}Ffrose - Texto
+┃│〘🎨〙➢ ${prefix}Anime - Texto  
+┃│〘🎨〙➢ ${prefix}Anime2 - Texto  
+┃│〘🕹️〙➢ ${prefix}Game - Texto  
+┃│〘❄️〙➢ ${prefix}Ffrose - Texto  
 ┃│〘🍃〙➢ ${prefix}Ffgren - Texto
-┃│〘🎨〙➢ ${prefix}Graffiti - Texto
-┃│〘🔥〙➢ ${prefix}Dragonfire - Texto
-┃│〘🤖〙➢ ${prefix}Mascotemetal - Texto
-┃│〘🔩〙➢ ${prefix}Metallic - Texto
-┃│〘💖〙➢ ${prefix}Goldpink - Texto
-┃│〘✨〙➢ ${prefix}Glossy - Texto
-┃│〘🎮〙➢ ${prefix}Pubgavatar - Texto
+┃│〘✨〙➢ ${prefix}Fluffy-logo - Texto
+┃│〘🔥〙➢ ${prefix}Lava-logo - Texto
+┃│〘😎〙➢ ${prefix}Cool-logo - Texto
+┃│〘🗯️〙➢ ${prefix}Comic-logo - Texto
+┃│〘🔥〙➢ ${prefix}Fire-logo - Texto
+┃│〘💧〙➢ ${prefix}Water-logo - Texto
+┃│〘🧊〙➢ ${prefix}Ice-logo - Texto
+┃│〘🎀〙➢ ${prefix}Elegant-logo - Texto
+┃│〘👑〙➢ ${prefix}Gold-logo - Texto
+┃│〘🍀〙➢ ${prefix}Fortune-logo - Texto
+┃│〘🔵〙➢ ${prefix}Blue-logo - Texto
+┃│〘⚪〙➢ ${prefix}Silver-logo - Texto
+┃│〘🌟〙➢ ${prefix}Neon-logo - Texto
+┃│〘🛹〙➢ ${prefix}Skate-name - Texto
+┃│〘📼〙➢ ${prefix}Retro-logo - Texto
+┃│〘🍬〙➢ ${prefix}Candy-logo - Texto
+┃│〘✨〙➢ ${prefix}Glossy-logo - Texto
+┃│〘🎉〙➢ ${prefix}Newyear - Texto
+┃│〘🐯〙➢ ${prefix}Tiger - Texto
+┃│〘🎮〙➢ ${prefix}Pubgvideo - Texto
+┃│〘🌌〙➢ ${prefix}Galaxy-light - Texto
 ┃│〘🌌〙➢ ${prefix}Galaxy - Texto
-┃│〘⚰️〙➢ ${prefix}Cemiterio - Texto
-┃│〘🗯️〙➢ ${prefix}Comics - Texto
-┃│〘🌠〙➢ ${prefix}Galaxy-light - Texto
-┃│〘🚀〙➢ ${prefix}Amongus - Texto
 ┃│〘🔀〙➢ ${prefix}Glitch - Texto
-┃│〘🎆〙➢ ${prefix}Firework - Texto
-┃│〘🖥️〙➢ ${prefix}Techstyle - Texto
-┃│〘👑〙➢ ${prefix}Royal - Texto
-┃│〘☁️〙➢ ${prefix}Cloudsky - Texto
-┃│〘🔡〙➢ ${prefix}Ligatures - Texto
-┃│〘❄️〙➢ ${prefix}Frozen - Texto
-┃│〘🎨〙➢ ${prefix}Watercolor - Texto
-┃│〘🏖️〙➢ ${prefix}Summerbeach - Texto
-┃│〘🖌️〙➢ ${prefix}Graffitistyle - Texto
-┃│〘⚡〙➢ ${prefix}Mascoteneon - Texto
-┃│〘🌀〙➢ ${prefix}Doubleexposure - Texto
-┃│〘🔩〙➢ ${prefix}Metal - Texto
-┃│〘🌈〙➢ ${prefix}Colorful - Texto
-┃│〘🕳️〙➢ ${prefix}3dcrack - Texto
-┃│〘🎈〙➢ ${prefix}Balloon - Texto
-┃│〘🌈〙➢ ${prefix}Multicolor - Texto
+┃│〘🎨〙➢ ${prefix}Graffiti - Texto
+┃│〘🔩〙➢ ${prefix}Metallic - Texto
+┃│〘✨〙➢ ${prefix}Glossy - Texto
+┃│〘🤖〙➢ ${prefix}Mascote - Texto
+┃│〘🔥〙➢ ${prefix}Dragonfire - Texto
+┃│〘💖〙➢ ${prefix}Goldpink - Texto
+┃│〘🎮〙➢ ${prefix}Pubgavatar - Texto
+┃│〘🎮〙➢ ${prefix}Ffavatar - Texto
+┃│〘🚀〙➢ ${prefix}Amongus - Texto
+┃│〘🗯️〙➢ ${prefix}Comics - Texto
+┃│〘👾〙➢ ${prefix}Lolavatar - Texto
+┃│〘⚰️〙➢ ${prefix}Cemiterio - Texto
+┃│〘🩸〙➢ ${prefix}Blood - Texto
+┃│〘🦇〙➢ ${prefix}Hallobat - Texto
+┃│〘⚙️〙➢ ${prefix}Titanium - Texto
+┃│〘🧽〙➢ ${prefix}Eraser - Texto
 ┃│〘🎃〙➢ ${prefix}Halloween - Texto
 ┃│〘❄️〙➢ ${prefix}Snow - Texto
 ┃│〘🇺🇸〙➢ ${prefix}America - Texto
-┃│〘🩸〙➢ ${prefix}Blood - Texto
-┃│〘🧽〙➢ ${prefix}Eraser - Texto
-┃│〘🕶️〙➢ ${prefix}Vintage3D - Texto
+┃│〘⚡〙➢ ${prefix}Mascoteneon - Texto
+┃│〘🌀〙➢ ${prefix}Doubleexposure - Texto
+┃│〘🔩〙➢ ${prefix}Metal - Texto
+┃│〘🕳️〙➢ ${prefix}3dcrack - Texto
+┃│〘🌈〙➢ ${prefix}Colorful - Texto
+┃│〘🎈〙➢ ${prefix}Ballon - Texto
+┃│〘🌈〙➢ ${prefix}Multicolor - Texto
+┃│〘🖌️〙➢ ${prefix}Graffitipaint - Texto
+┃│〘🖌️〙➢ ${prefix}Graffitistyle - Texto
+┃│〘❄️〙➢ ${prefix}Frozen - Texto
+┃│〘🔡〙➢ ${prefix}Ligatures - Texto
+┃│〘🎨〙➢ ${prefix}Watercolor - Texto
+┃│〘🏖️〙➢ ${prefix}Summerbeach - Texto
+┃│〘☁️〙➢ ${prefix}Cloudsky - Texto
+┃│〘🖥️〙➢ ${prefix}Techstyle - Texto
+┃│〘👑〙➢ ${prefix}Royal - Texto
+┃│〘🎆〙➢ ${prefix}Firework - Texto
+┃│〘🤖〙➢ ${prefix}Mascotemetal - Texto
+┃│〘🦸‍♂️〙➢ ${prefix}Captain - Texto
+┃│〘🖍️〙➢ ${prefix}Graffitiwall - Texto
+┃│〘🔥〙➢ ${prefix}Phlogo - Texto
+┃│〘🎀〙➢ ${prefix}Blackpink - Texto
 ┃│〘💀〙➢ ${prefix}Deadpool - Texto
 ┃│〘✨〙➢ ${prefix}Glitter - Texto
-┃│〘🎀〙➢ ${prefix}Blackpink - Texto
-┃│〘🔥〙➢ ${prefix}Phlogo - Texto
-┃│〘🖍️〙➢ ${prefix}Graffitiwall - Texto
-┃│〘🦸‍♂️〙➢ ${prefix}Captain - Texto
-┃│〘🕰️〙➢ ${prefix}Retro - Texto
+┃│〘🕶️〙➢ ${prefix}Vintage3d - Texto
+┃│〘📼〙➢ ${prefix}Retro - Texto
 ┃╰══ 🖋️
 ╰═════════════════ 🌟`;
 };
@@ -403,7 +403,8 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 
 😂 *𝐁𝐑𝐈𝐍𝐂𝐀𝐃𝐄𝐈𝐑𝐀𝐒* 🎭  
 ┣ 😼 ${prefix}apolparpeitos - *@Marcar usuário*  
-┣ 🌈 ${prefix}Gay - *@Marcar usuário*  
+┣ 🌈 ${prefix}Gay - *@Marcar usuário*
+┣ 🤡 ${prefix}calvo - *@Marcar usuário*  
 ┣ 🤡 ${prefix}Feio - *@Marcar usuário*  
 ┣ 🐂 ${prefix}Corno - *@Marcar usuário*  
 ┣ 👀 ${prefix}Vesgo - *@Marcar usuário*  
@@ -434,7 +435,8 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┣ 🔥 ${prefix}Rankgostoso - *Top 5 gostosos*  
 ┣ 😍 ${prefix}Rankgostosa - *Top 5 gostosas*  
 ┣ 🎌 ${prefix}Rankotakus - *Top 5 otakus*  
-┣ 🍆 ${prefix}Rankpau - *Top 5 pauzudos*  
+┣ 🍆 ${prefix}Rankpau - *Top 5 pauzudos* 
+┣ 🍑 ${prefix}rankbct - *Top 5 pauzudos*  
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━╯​​​`;
 };
 
@@ -555,7 +557,9 @@ return `
 🎬 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 🎵
 ┣ 🔍 ${prefix}threads (link)
 ┣ 🔍 ${prefix}threadsmp3 (link)
-┣ 🔍 ${prefix}soundcloud (link) 
+┣ 🔍 ${prefix}soundcloud (link)
+┣ 🔍 ${prefix}sc (nome)
+┣ 🔍 ${prefix}sc2 (nome) 
 ┣ 🔍 ${prefix}sound_clouds (link)
 ┣ 🔍 ${prefix}shazam - Identificar Áudio
 ┣ 🎼 ${prefix}play - Tocar Música 
@@ -615,6 +619,8 @@ return `
 ╰━━━━━━━━━━━━━━━━━━╯
 
 🎲 𝐂𝐌𝐃𝐒-𝐃𝐄-𝐀𝐋𝐄𝐀𝐓𝐎𝐑𝐈𝐎 🎲
+┣ 🎭${prefix}baixapp nome apk
+┣ 🪑 ${prefix}rvisu
 ┣ 🪑 ${prefix}sentar - Comando Sentar 
 ┣ 🔊 ${prefix}gtts - Texto para Fala 
 ┣ 🏷️ ${prefix}tagme - Marcar Usuário 

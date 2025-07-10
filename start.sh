@@ -38,7 +38,7 @@ verificar_conexao() {
 conectar() {
     local tipo_conexao=$1
     local parametro=$2
-    echo_color "blue" "🔄 TED V4.1 - Conexão via $tipo_conexao ativada..."
+    echo_color "blue" "🔄 TED V4.2 - Conexão via $tipo_conexao ativada..."
     loading_effect
     if [ "$tipo_conexao" == "QR Code" ]; then
         echo "📷 Escaneie o QR Code para conectar."
@@ -63,7 +63,7 @@ apagar_qr() {
 banner() {
     clear
     echo_color "blue" "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-    echo_color "yellow"  "         🚀 BEM-VINDO AO TED V4.1 🚀"
+    echo_color "yellow"  "         🚀 BEM-VINDO AO TED V4.2 🚀"
     echo_color "cyan"    "     Conexão rápida e eficiente garantida!"
     echo_color "blue" "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     sleep 1
@@ -109,7 +109,7 @@ while true; do
                     ;;
                 5) apagar_qr ;;
                 6) 
-                    echo_color "yellow" "👋 Obrigado por usar o TED V4.1! Até a próxima."
+                    echo_color "yellow" "👋 Obrigado por usar o TED V4.2! Até a próxima."
                     exit 0
                     ;;
                 *) 

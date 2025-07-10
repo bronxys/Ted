@@ -70,6 +70,6 @@
     "aluguel": true,
     "isativatexto": true,
     "antivideo": true,
-    "audioAtivado": false
+    "audioAtivado": true
   }
 ]
